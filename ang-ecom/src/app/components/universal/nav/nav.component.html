@@ -1,10 +1,19 @@
 <nav class="flex flex-col justify-center text-center fixed top-0 right-0 left-0 p-3">
-  <a class="text-2xl" routerLink="/">
+  <a class="text-4xl font-semibold" routerLink="/">
     Kibél
   </a>
-  <div class="flex flex-row gap-3 mx-auto text-xl">
-    <a routerLink="/about">About</a>
-    <a routerLink="/products">Products</a>
-    <a routerLink="/contact">Contact</a>
+  <div class="flex flex-row justify-between mx-auto my-3 text-xl w-full">
+    <div class="min-w-[33%]">
+    </div>
+    <div class="flex flex-row justify-center gap-3 min-w-[33%]">
+      <a routerLink="/about">About</a>
+      <a routerLink="/products">Products</a>
+      <a routerLink="/contact">Contact</a>
+    </div>
+    <div class="min-w-[33%]">
+      <a routerLink="/cart">
+        Cart
+      </a>
+    </div>
   </div>
 </nav>
